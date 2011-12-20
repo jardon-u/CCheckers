@@ -1,0 +1,19 @@
+* C++:
+- Game should accept command turn by turn.
+   ie check if current player has the right to play.
+- I.A.
+- Allow one IA player to play different marble color.
+
+* python:
+- Fix window size.
+   currently resizable
+- Add menu etc..
+   new game, save game, exit
+- Make error message displayed
+
+
+* Bug
+   From python interface:
+   - A red circle appears even if the move was correct.
+   - The red circle sometime doesn't show up whilst it should.
+   - Marbles displayed are not related to the number of player.

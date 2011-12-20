@@ -1,0 +1,36 @@
+--------------------------------------------------------------
+                Chinese Checkers Game
+--------------------------------------------------------------
+
+This project is composed of a chinese checkers game system in C++
+and a GUI in Python.
+
+INSTALL:
+        ./configure && make
+        make gui
+
+USAGE:
+        python gui/ccheckers.py
+
+        or
+
+        ./ccheckers nb_player
+        ccheckers $ help
+        
+DEV_USAGE:
+        #include <board.hh>
+        #include <game.hh>
+
+        using namespace cc;
+
+        board b;
+        game g(b, nb_players);
+
+        g.move(cell(12,22), cell(11,17), 1);
+
+NOTES/BUGS:
+  The project is in alpha states.
+       - Game modelisation is ok but many details are deceiving.
+       - IA is pure bullshit
+       - Game rounds etc.. not handled
+
